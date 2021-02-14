@@ -1,38 +1,20 @@
 {
   "name": "algo-trading",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
-    "web-vitals": "^1.0.1"
-  },
+  "version": "1.0.0",
+  "description": "Initial Readme. I dont have anything to say as of yet, I am simply taking up your time by making you read this file. Congrats, you have read this far for no good reason. Why are you still reading? Well okay then I guess you are a persistent one. If you really want to know what this app is about then read on. Or dont. I dont actually want to tell you what I am going to do here. My algorithm. Unless you want to be friends and help me make a better one. No? Who am I kidding the only people reading this far are not people at all. Are you a robot? Yes. Obviously. No human would have gotten this far.  Okay now im going to write some code i guess",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/acb5764/Algo-Trading.git)"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^1.4.2",
+    "lodash": "^4.17.20",
+    "technicalindicators": "^3.1.0"
   }
 }
